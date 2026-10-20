@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147.57 59.69">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .2em;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #6ab82d;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+
+      .cls-4 {
+        fill: #4eb34e;
+      }
+
+      .cls-5 {
+        fill: #227639;
+      }
+
+      .cls-6 {
+        letter-spacing: .23em;
+      }
+
+      .cls-7 {
+        fill: #6ab82d;
+      }
+
+      .cls-8 {
+        letter-spacing: .21em;
+      }
+
+      .cls-9 {
+        fill: #dfdd91;
+      }
+
+      .cls-10 {
+        font-size: 18px;
+        letter-spacing: .2em;
+      }
+
+      .cls-10, .cls-11 {
+        fill: #231815;
+        font-family: HGPGothicE, HGPGothicE;
+      }
+
+      .cls-11 {
+        font-size: 9px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <g>
+      <g>
+        <g>
+          <rect class="cls-7" x="1.38" y="9.35" width="10.04" height="8.95" rx="2.83" ry="2.83"/>
+          <g>
+            <path class="cls-3" d="M34.66,15.26c2.89,4.35,4.65,10.12,4.65,16.45,0,13.52-8.02,24.48-17.9,24.48S3.5,45.23,3.5,31.71c0-6.15,1.66-11.77,4.4-16.07"/>
+            <rect class="cls-7" x="31.17" y="9.35" width="10.04" height="8.95" rx="2.83" ry="2.83"/>
+          </g>
+        </g>
+        <rect class="cls-2" x="2.04" y="23.79" width="2.61" height="4.83" rx=".57" ry=".57"/>
+        <rect class="cls-2" x="2.04" y="32.67" width="2.61" height="4.83" rx=".57" ry=".57" transform="translate(-4.82 .8) rotate(-7.96)"/>
+        <rect class="cls-2" x="4.76" y="40.95" width="2.61" height="4.83" rx=".57" ry=".57" transform="translate(-17.43 6.42) rotate(-24.49)"/>
+        <rect class="cls-2" x="37.67" y="23.79" width="2.61" height="4.83" rx=".57" ry=".57"/>
+        <rect class="cls-2" x="37.4" y="32.3" width="2.61" height="4.83" rx=".55" ry=".55" transform="translate(4.08 -4.07) rotate(6.35)"/>
+        <rect class="cls-2" x="35.06" y="40.95" width="2.61" height="4.83" rx=".55" ry=".55" transform="translate(18.31 -10.27) rotate(21.38)"/>
+      </g>
+      <text class="cls-11" transform="translate(56.02 53.37)"><tspan class="cls-1" x="0" y="0">K</tspan><tspan class="cls-8" x="7.71" y="0">E</tspan><tspan class="cls-6" x="14.8" y="0">I</tspan><tspan class="cls-1" x="18.88" y="0">BAJO NAVI</tspan></text>
+      <g>
+        <path class="cls-5" d="M129.05,32.74c-1.69,1.58-3.24,3.45-4.75,5.2l8.38.27c1.13-1.7,2.04-3.82,3.03-5.69l-6.66.22Z"/>
+        <path class="cls-9" d="M135.71,32.55c-.98,1.87-1.9,3.99-3.03,5.69l5.47.18,5.56.18v-6.3l-8.01.26Z"/>
+        <path class="cls-4" d="M47.25,35.45l78,2.52c1.51-1.74,3.07-3.62,4.75-5.2l-82.75,2.68Z"/>
+      </g>
+      <text class="cls-10" transform="translate(46.76 24.13)"><tspan x="0" y="0">競馬場ナビ</tspan></text>
+    </g>
+  </g>
+</svg>
