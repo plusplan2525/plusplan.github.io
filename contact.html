@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sanitize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>$(function () {
+            $('#pagetop').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });
+    </script>
+
+
+    <title>競馬場ナビ-お問い合わせ</title>
+</head>
+
+<body>
+    <header id="top">
+        <div class="inner">
+            <h1><a href="index.html"><img src="./images/keibajyo_logo.svg" alt="競馬場ナビ"></a></h1>
+            <nav>
+                <ul>
+                    <li id="nav_home"><a href="index.html">ホーム</a></li>
+                    <li id="nav_know"><a href="know.html">競馬場を知る</a></li>
+                    <li id="nav_enjoy"><a href="enjoy.html">レースを楽しむ</a></li>
+                    <li id="nav_contact"><a href="contact.html" class="current">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- パンくずリスト↓ -->
+        <div class="header_bread_nav">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+
+
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </div>
+
+
+
+    </header>
+    <section class="contact">
+        <div id="graphic_contact"><img src="./images/contact_main.jpg" alt="お問い合わせ。ご質問、ご意見などお気軽にお問い合わせください。"></div>
+
+        <div id="contact">
+            <article>
+                <h2>お問い合わせ</h2>
+                <p class="contact">ご質問・ご意見など、<br>以下のフォームよりお気軽にお問い合わせください。</p>
+                <form action="#">
+                    <p><label>お名前（必須）<br><input type="text" name="name" required></label></p>
+                    <p><label>メールアドレス（必須）<br><input type="email" name="mail" required></label></p>
+                    <!-- <div>お問い合わせ種類<br>
+                        <label><input type="checkbox" name="kind" value="0">ご質問</label>
+                        <label><input type="checkbox" name="kind" value="1">ご意見</label>
+                        <label><input type="checkbox" name="kind" value="1">その他</label>
+                        </p> -->
+                    <dl class="contact_type">
+                        <dt>お問い合わせ</dt>
+                        <dd>
+                            <label><input type="radio" name="kind" value="0">ご質問</label>
+                            <label><input type="radio" name="kind" value="0">ご意見</label>
+                            <label><input type="radio" name="kind" value="1">その他</label>
+                        </dd>
+
+
+
+                    </dl>
+                    <!-- <select name="pref">
+                <option value="選んでください">選んでください</option>
+                <option value="ご質問">ご質問</option>
+                <option value="ご意見">ご意見</option>
+                <option value="その他">その他</option> -->
+                    </select>
+                    <p><label>お問い合わせ内容<br>
+                            <textarea name="message"></textarea></label></p>
+                    <input type="submit" value="確認する">
+                </form>
+            </article>
+        </div>
+    </section>
+
+
+    <footer>
+        <p id="pagetop"><a href="#top">ページの先頭へ戻る</a></p>
+        <p id="copyright"><small>© 2026 KEIBAJO NAVI.</small></p>
+
+
+
+
+    </footer>
+
+</body>
+
+</html>
