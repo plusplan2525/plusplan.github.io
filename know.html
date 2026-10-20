@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sanitize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>$(function () {
+            $('#pagetop').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });
+    </script>
+
+     <script>$(function () {
+            $('#nav-toggle').click(function () {
+                // メニューの開閉状態を切り替える
+                $('.nav-ham').toggleClass('open');
+
+                // ハンバーガーボタンのアクティブクラスを切り替えて三本線をバツにする
+                $(this).toggleClass('active');
+            });
+        });</script>
+
+
+    <title>競馬場ナビ-競馬場を知る</title>
+</head>
+
+<body>
+    <header id="top">
+        <div class="inner">
+            <h1><a href="index.html"><img src="./images/keibajyo_logo.svg" alt="競馬場ナビ"></a></h1>
+            <nav>
+                <ul>
+                    <li id="nav_home"><a href="index.html">ホーム</a></li>
+                    <li id="nav_know"><a href="know.html" class="current">競馬場を知る</a></li>
+                    <li id="nav_enjoy"><a href="enjoy.html">レースを楽しむ</a></li>
+                    <li id="nav_contact"><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+
+             <!-- ハンバーガーメニュー -->
+            <div class="nav-ham">
+                <div id="nav-toggle" class="sp">
+                    <div><span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="know.html">競馬場を知る</a></li>
+                    <li><a href="enjoy.html">レースを楽しむ</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+
+
+            </div>
+        </div>
+
+        <!-- パンくずリスト↓ -->
+        <div class="header_bread_nav">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="know.html">競馬を知る</a></li>
+            </ul>
+        </div>
+
+
+
+    </header>
+
+    <section>
+
+        <div id="know_contents">
+            <div class="know_wrp">
+                <article>
+                    <img src="./images/logo_know.png" alt="">
+                    <h2>全国の競馬場</h2>
+                    <p>JRAには全国に10の競馬場を運営しています。<br>それぞれの競馬場に個性があり、四季折々のレースを楽しむことができます。</p>
+                </article>
+            </div>
+
+
+            <div class="know_box">
+
+                <div class="know_item"><a href="sapporo.html"><img src="./images/札幌競馬場.jpg" alt="札幌競馬場" class="item1">
+                        <h3>札幌競馬場</h3>
+
+                    </a>
+                    <p>(北海道札幌市)</p>
+                </div>
+                <div class="know_item"><a href="hakodate.html"><img src="./images/函館競馬場.jpg" alt="函館競馬場" class="item2">
+                        <h3>函館競馬場</h3>
+                    </a>
+                    <p>(北海道函館市)</p>
+                </div>
+                <div class="know_item"><a href="fukushima.html"><img src="./images/福島競馬場.jpg" alt="福島競馬場" class="item3">
+                        <h3>福島競馬場</h3>
+                    </a>
+                    <p>(福島県福島市)</p>
+                </div>
+                <div class="know_item"><a href="niigata.html"><img src="./images/新潟競馬場.jpg" alt="新潟競馬場" class="item4">
+                        <h3>新潟競馬場</h3>
+                    </a>
+                    <p>(新潟県新潟市)</p>
+                </div>
+                <div class="know_item"><a href="nakayama.html"><img src="./images/中山競馬場.jpg" alt="中山競馬場" class="item5">
+                        <h3>中山競馬場</h3>
+                    </a>
+                    <p>(千葉県船橋市)</p>
+                </div>
+                <div class="know_item"><a href="tokyo.html"><img src="./images/東京競馬場.jpg" alt="東京競馬場" class="item6">
+                        <h3>東京競馬場</h3>
+                    </a>
+                    <p>(東京都府中市)</p>
+                </div>
+                <div class="know_item"><a href="tyukyo.html"><img src="./images/中京競馬場.jpg" alt="中京競馬場" class="item7">
+                        <h3>中京競馬場</h3>
+                    </a>
+                    <p>(愛知県豊明市)</p>
+                </div>
+                <div class="know_item"><a href="kyoto.html"><img src="./images/京都競馬場.jpg" alt="京都競馬場" class="item8">
+                        <h3>京都競馬場</h3>
+                    </a>
+                    <p>(京都府京都市)</p>
+                </div>
+                <div class="know_item"><a href="hanshin.html"><img src="./images/阪神競馬場.jpg" alt="阪神競馬場" class="item9">
+                        <h3>阪神競馬場</h3>
+                    </a>
+                    <p>(兵庫県宝塚市)</p>
+                </div>
+                <div class="know_item"><a href="kokura.html"><img src="./images/小倉競馬場02.jpg" alt="小倉競馬場" class="item10">
+                        <h3>小倉競馬場</h3>
+                    </a>
+                    <p>(福岡県北九州市)</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p id="pagetop"><a href="#top">ページの先頭へ戻る</a></p>
+        <p id="copyright"><small>© 2026 KEIBAJO NAVI.</small></p>
+
+
+
+
+    </footer>
+
+</body>
+
+</html>
