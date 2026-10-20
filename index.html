@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sanitize.css">
+    <!-- 
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css"> -->
+
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#graphic').slick({
+                dots: true,
+
+                autoplay: true,
+
+                autoplaySpeed: 4000,
+                speed: 1000,
+            });
+        });
+    </script>
+
+    <script>$(function () {
+            $('#pagetop').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+       crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#graphic').bxSlider({
+                auto: true,
+                pause: 5000, // 画像がスライドするスピード
+                slideWidth: 1200, // 画像の横幅
+            });
+        });
+    </script> -->
+
+    <script>$(function () {
+            $('#nav-toggle').click(function () {
+                // メニューの開閉状態を切り替える
+                $('.nav-ham').toggleClass('open');
+
+                // ハンバーガーボタンのアクティブクラスを切り替えて三本線をバツにする
+                $(this).toggleClass('active');
+            });
+        });</script>
+
+
+
+
+
+
+
+
+    <title>競馬場ナビ-ホーム</title>
+</head>
+
+<body>
+    <header id="top">
+        <div class="inner">
+            <h1><a href="index.html"><img src="./images/keibajyo_logo.svg" alt="競馬場ナビ"></a></h1>
+            <nav>
+                <ul>
+                    <li id="nav_home"><a href="index.html" class="current">ホーム</a></li>
+                    <li id="nav_know"><a href="know.html">競馬場を知る</a></li>
+                    <li id="nav_enjoy"><a href="enjoy.html">レースを楽しむ</a></li>
+                    <li id="nav_contact"><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+
+            <!-- ハンバーガーメニュー -->
+            <div class="nav-ham">
+                <div id="nav-toggle" class="sp">
+                    <div><span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="know.html">競馬場を知る</a></li>
+                    <li><a href="enjoy.html">レースを楽しむ</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+
+
+            </div>
+
+            <!-- パンくずリスト↓ -->
+        </div>
+
+
+
+    </header>
+    <div class="top_wrp">
+
+        <div id="graphic">
+            <div><img src="./images/mainview_01-1.jpg" alt="" class="graphic_img"></div>
+            <div><img src="./images/mainview_02.png" alt="" class="graphic_img"></div>
+            <div><img src="./images/mainview_03.png" alt="" class="graphic_img"></div>
+            <div><img src="./images/mainview_04.png" alt="" class="graphic_img"></div>
+        </div>
+        <div id="now_contents">
+            <div class="now_open">
+                <article>
+                    <h2>現在開催中の競馬場</h2>
+                </article>
+            </div>
+            <div class="now_box">
+                <div class="now_item">
+                    <div class="now_explain"><a href="tokyo.html"><img src="./images/東京競馬場.jpg" alt="東京競馬場">
+                            <h3>東京競馬場</h3>
+                        </a>
+                    </div>
+                    <p>日本ダービーの舞台。<br>長い直線と広大なコースが魅力。</p>
+                </div>
+
+                <div class="now_item">
+                    <div class="now_explain"><a href="kyoto.html"><img src="./images/京都競馬場.jpg" alt="京都競馬場">
+                            <h3>京都競馬場</h3>
+                        </a>
+
+                    </div>
+                    <p>伝統ある競馬場。<br>3コーナー付近の坂が特徴。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p id="pagetop"><a href="#top">ページの先頭へ戻る</a></p>
+        <p id="copyright"><small>© 2026 KEIBAJO NAVI.</small></p>
+
+
+
+
+    </footer>
+
+</body>
+
+</html>
